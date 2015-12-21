@@ -1,0 +1,117 @@
+/** {*/
+    /*border: dashed 1px black;*/
+/*}*/
+
+.headers {
+    height: 100px;
+    width: 100%;
+    background: #E1E1E1;
+    border: 0px solid black;
+    text-align: center;
+    font-size: 100px;
+    padding: 0px;
+}
+
+.body {
+    position: relative;
+    /*white-space: */
+    top:-50px;
+    bottom:0px;
+    height: 100%;
+    width: 100%;
+    /*background: ;*/
+    border: 0px solid black;
+    padding: 0px;
+}
+.button {
+   border-top: 1px solid #96d1f8;
+   background: #65d679;
+   /*background: -webkit-gradient(linear, left top, left bottom, from(#49ed40), to(#65d679));
+   background: -webkit-linear-gradient(top, #49ed40, #65d679);
+   background: -moz-linear-gradient(top, #49ed40, #65d679);
+   background: -ms-linear-gradient(top, #49ed40, #65d679);
+   *//*background: -o-linear-gradient(top, #49ed40, #65d679);*/
+   padding: 17px 34px;
+   /*-webkit-border-radius: 0px;*/
+   /*-moz-border-radius: 0px;*/
+   /*border-radius: 0px;*/
+   /*-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;*/
+   /*-moz-box-shadow: rgba(0,0,0,1) 0 1px 0;*/
+   /*box-shadow: rgba(0,0,0,1) 0 1px 0;*/
+   /*text-shadow: rgba(0,0,0,.4) 0 1px 0;*/
+   color: white;
+   font-size: 24px;
+   font-family: Arial;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border-top-color: #000000;
+   background: #000000;
+   color: #ccc;
+   }
+.button:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }
+
+.footer {
+
+}
+.html {
+   margin: 0px;
+   height: 100%;
+   width: 100%;
+}
+
+.login {
+    height: 500px;
+    width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    background: white;
+    padding: 30px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.login_textbox_title {
+    height: 50px;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial;
+}
+
+.login_textbox {
+    height: 30px;
+    width: 300px;
+    margin: auto;
+    font-size: 25px;
+    text-align: center;
+    font-family: Arial;
+    margin-top: 30px;
+}
+
+.text_input {
+    height: 30px;
+    width: 300px;
+}
+
+.inspector_page {
+    height: 100px;
+    width: 400px;
+}
+.options {
+    
+}
+
+.allContainer {
+        width: 100%;
+        height:100%;
+}
+
+.vistorias {
+    yh
+}
