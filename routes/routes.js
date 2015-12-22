@@ -43,4 +43,14 @@ app.get('/ficha', function(req,res){
 })
 
 
+app.get('/fetch', function(req, res){
+	var fetch = require('node-fetch')
+
+	fetch('http://18404842.ngrok.com/edital/prefeitura/api/getVistorias/userTest')
+	.then(function(res){
+		return res.json()
+	}).then(function(json){console.log(json)})
+
+})
+
 

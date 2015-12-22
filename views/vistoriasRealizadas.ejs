@@ -20,7 +20,7 @@
                 </a>
                 <ul class="nav navbar-nav">
                     <li><a href="/home">Página Inicial</a></li>
-                    <li class="active"><a href="/vistoriasRealizadas">Vistorias Realizadas</a></li>
+                    <li class="active"><a href="/vistoriasRealizadas.js">Vistorias Realizadas</a></li>
                     <li><a href="/veiculosLacrados"> Veículos Lacrados</a></li>
                 </ul>
             </div>
@@ -44,17 +44,17 @@
       </tr>
     </thead>
     <tbody>
-      <% for(var i=0; i < data.length; i++) { %>
+      <% for(var i=0; i < json.length; i++) { %>
    <tr>
-     <td><%= data[i].data %></td>
-     <td><%= data[i].id %></td>
-     <td><%= data[i].linha %></td>
-     <td><%= data[i].placa %></td>
-     <td><%= data[i].itensReprovados %></td>
-     <td><%= data[i].tipoDeVistoria %></td>
-     <td><%= data[i].status %></td>
+     <td><%= json[i].data %></td>
+     <td><%= json[i].id %></td>
+     <td><%= json[i].linha %></td>
+     <td><%= json[i].placa %></td>
+     <td><%= json[i].itensReprovados %></td>
+     <td><%= json[i].tipoDeVistoria %></td>
+     <td><%= json[i].status %></td>
      <td>
-        <%= data[i].ficha %>
+        <%= json[i].ficha %>
         <button type="button" class="btn btn-success" id="ficha">Ver Ficha</button>
     </td>
    </tr>
@@ -70,4 +70,4 @@
             document.getElementById("ficha").onclick = function () {
             location.href = "/ficha";
                 };
-            </script>
+</script>
